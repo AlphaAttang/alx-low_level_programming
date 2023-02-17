@@ -5,12 +5,12 @@
  * Return: Always 0
  */
 
-int main()
+int main(void)
 {
 
 	char la;
 
-	for(la = 'a'; la <= 'z'; la++)
+	for (la = 'a'; la <= 'z'; la++)
 	{
 		putchar(la);
 	}
