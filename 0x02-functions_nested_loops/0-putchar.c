@@ -1,24 +1,21 @@
-#include <stdio.h>
-
-#define MAXSTRING 80
+#include "main.h"
 
 /**
- * main - prints _putchar
+ * main - print _putchar followed by a new line
  * return: Always 0
  */
 
 int main(void)
 {
-	char message[] = "_putchar";
-	for (int count = 0; count < MAXSTRING; count++)
-	{
-		if (message[count] == '\0')
-		{
-			putchar('\n');
-			break;
-		}
-		else
-			putchar(message[count]);
-	}
+	putchar("_");
+	putchar("p");
+	putchar("u");
+	putchar("t");
+	putchar("c");
+	putchar("h");
+	putchar("a");
+	putchar("r");
+	putchar("\n");
+
 	return(0);
 }
