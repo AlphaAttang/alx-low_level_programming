@@ -2,6 +2,11 @@
 
 #define MAXSTRING 80
 
+/**
+ * main - prints _putchar
+ * return: Always 0
+ */
+
 int main(void)
 {
 	char message[] = "_putchar";
