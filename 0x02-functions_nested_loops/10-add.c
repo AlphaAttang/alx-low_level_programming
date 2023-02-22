@@ -9,6 +9,6 @@
 
 int add(int a, int b)
 {
-	result = int a + int b;
+	result = a + b;
 	return(result);
 }
