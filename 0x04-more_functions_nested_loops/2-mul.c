@@ -4,7 +4,7 @@
  * mul - multiplies two integers
  * @a: Variable to be checked
  * @b: Variable to be checked
- * Return: 0
+ * Return: product of both variables
  */
 
 int mul(int a, int b)
