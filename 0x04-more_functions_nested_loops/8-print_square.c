@@ -11,15 +11,15 @@ void print_square(int size)
 	
 	if (size <= 0)
 		_putchar('\n');
-
-	for (height = 0; height < size; height++)
-	{
-		for (width = 0; width < size; width++)
+	else
+		for (height = 0; height < size; height++)
 		{
-			_putchar('#');
+			for (width = 0; width < size; width++)
+			{
+				_putchar('#');
+			}
+			_putchar('\n');
 		}
-		_putchar('\n');
-	}
 
 	_putchar('\n');
 }
