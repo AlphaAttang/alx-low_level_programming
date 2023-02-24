@@ -72,7 +72,7 @@ Write a program that prints the numbers from 1 to 100, followed by a new line. B
 * You are allowed to use the standard library
 
 # Task 10 
- *file: 10-print_triangle.c*
+ *file: 10-print_triangle.c*\n
 Write a function that prints a triangle, followed by a new line.
 
 * Prototype: void print_triangle(int size);
