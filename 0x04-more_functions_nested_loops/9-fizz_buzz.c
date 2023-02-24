@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - Prints the numbers from 1-100, but for multiples of three,
@@ -25,7 +26,7 @@ int main(void)
 
 		else
 			printf("%d ", num);
-		
+
 		printf(" ");
 	}
 
